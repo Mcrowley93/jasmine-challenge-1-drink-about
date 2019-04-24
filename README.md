@@ -1,18 +1,10 @@
+Your challenge is to write some tests for the Drink About game.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Drink About is a simple function that will check the age and return a drink appropriate for your age. Create a function called whatCanIDrink. This function should take in age as parameter. The function should do the following:
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+If the age is less than 0, then it should return "Sorry. I can’t tell what drink because that age is incorrect!"
+If the age is less than 14, then it should return "Drink Toddy"
+If the age is less than 18, then it should return "Drink Coke"
+If the age is less than 21, then it should return "Drink Beer"
+If the age is less than 130, then it should return "Drink Whisky"
+Else return "Sorry. I can’t tell what drink because that age is incorrect!"
